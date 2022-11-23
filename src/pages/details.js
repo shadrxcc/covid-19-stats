@@ -1,3 +1,5 @@
+//import { useSelector } from "react-redux";
+
 const Details = () => {
   return (
     <h2>na here i dey</h2>
