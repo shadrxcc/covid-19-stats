@@ -1,4 +1,4 @@
-import { SET_COUNTRY, SELECT_COUNTRY } from "../constants/action-types";
+import { SET_COUNTRY, SELECT_COUNTRY, SET_WORLD } from "../constants/action-types";
 
 const setCountry = (countries) => {
   return {
@@ -14,4 +14,11 @@ const selectCountry = (country) => {
   };
 };
 
-export { selectCountry, setCountry };
+const setWorld = (continent) => {
+  return {
+    type: SET_WORLD,
+    payload: continent,
+  };
+};
+
+export { selectCountry, setCountry, setWorld };

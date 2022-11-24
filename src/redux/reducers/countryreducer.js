@@ -1,15 +1,15 @@
 //import { setCountry, selectCountry } from "../actions";
-import { SET_COUNTRY } from "../constants/action-types";
+import { SET_WORLD } from "../constants/action-types";
 
 const initialState = [];
 
-const countryReducer = (state = initialState, action) => {
+const worldReducer = (state = initialState, action) => {
   switch (action.type) {
-    case SET_COUNTRY:
-      return state;
+    case SET_WORLD:
+      return [...state, action.payload];
     default:
       return state;
   }
 };
 
-export default countryReducer;
+export default worldReducer;
