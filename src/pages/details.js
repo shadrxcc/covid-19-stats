@@ -21,6 +21,7 @@ const Details = () => {
 
   useEffect(() => {
     if (countryInfo && countryInfo !== "") fetchDetails();
+     // eslint-disable-next-line
   }, [countryInfo])
   return (
     <div>

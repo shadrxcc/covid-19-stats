@@ -24,7 +24,7 @@ const dispatch = useDispatch()
      getCountries()
      // eslint-disable-next-line
   }, [])
-
+console.log(countries)
   
   return (
     <>
