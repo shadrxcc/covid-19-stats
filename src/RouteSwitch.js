@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Details from "./pages/details";
+import Detailscomp from "./pages/detailscomp";
 import Home from "./pages/home";
 
 const Routeswitch = () => {
@@ -7,7 +7,8 @@ const Routeswitch = () => {
     <>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/countryId" element={<Details/>}></Route>
+        <Route path="/country/:countryInfo" element={<Detailscomp/>}></Route>
+        <Route path=""></Route>
       </Routes>
     </>
   );

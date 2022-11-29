@@ -10,13 +10,13 @@ import Routeswitch from "./RouteSwitch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+ 
     <BrowserRouter>
       <Provider store={store}>
         <Routeswitch />
       </Provider>
     </BrowserRouter>
-  </React.StrictMode>
+
 );
 
 reportWebVitals();

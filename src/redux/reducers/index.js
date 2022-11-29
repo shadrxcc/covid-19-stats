@@ -1,9 +1,10 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import worldReducer from "./countryreducer";
+import countryReducer, { selectedcountryReducer } from "./countryreducer";
 
 
 const rootReducer = combineReducers({
-  allCountries: worldReducer,
+  allCountries: countryReducer,
+  country: selectedcountryReducer,
 });
 
 export default rootReducer;
