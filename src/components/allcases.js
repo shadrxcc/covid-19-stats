@@ -25,16 +25,16 @@ class Allcases extends Component {
       <div className="pt-3 px-2">
         <div
           id="all"
-          className="flex p-3 text-white bg-purple-700 rounded-lg items-center justify-evenly"
+          className="flex flex-col md:flex-row p-3 text-white bg-purple-700 rounded-lg items-center justify-evenly"
         >
           <img className="w-3/12" src={globe} alt="world icon"></img>
 
           <span key={world.id}>
-            <span className="py-2">
+            <span className="py-2 text-center md:text-start">
               <p className="text-base">Confirmed Cases:</p>
               <p className="text-base">{world.cases}</p>
             </span>
-            <span className="py-2">
+            <span className="py-2 text-center md:text-start">
               <p className="text-base">Affected Countries:</p>
               <p className="text-base">{world.affectedCountries}</p>
             </span>

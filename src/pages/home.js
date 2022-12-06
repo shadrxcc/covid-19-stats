@@ -11,7 +11,7 @@ const Home = () => {
 
 const dispatch = useDispatch()
   
-   const getCountries = async () => {
+    const getCountries = async () => {
     const response = await axios.get(
       "https://disease.sh/v3/covid-19/countries"
     ).catch((err) => {
@@ -19,6 +19,9 @@ const dispatch = useDispatch()
     });
     dispatch(setCountry(response.data))
   };
+
+  
+
 
   useEffect(() => {
      getCountries()

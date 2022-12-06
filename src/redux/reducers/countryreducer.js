@@ -13,7 +13,6 @@ const countryReducer = (state = initialState, {type, payload}) => {
       return state;
   }
 };
-
 export default countryReducer;
 
 export const selectedcountryReducer = (state = {}, {type, payload}) => {
