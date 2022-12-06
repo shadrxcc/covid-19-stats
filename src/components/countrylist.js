@@ -12,8 +12,8 @@ const Countrylist = () => {
     return (
       <div className="container-fluid col-md-4 col-lg-3 text-center" key={countryInfo._id}>
         <Link to={`/country/${countryInfo._id}`}>
-          <div className="row row-cols-8 p-2">
-            <div className="col-md-6 col-lg-3 my-2 text-center">
+          <div className="">
+            <div className="my-2 text-center">
               <div className="rounded-lg py-5 bg-purple-700">
                 <div className="m-auto flex justify-center">
                   <img src={virus} className="w-25" alt="flag"></img>
