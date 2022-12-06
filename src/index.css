@@ -11,5 +11,9 @@ body {
 }
 
 .virus {
-  width: 20%;
+  filter: brightness(0) invert(1);
+}
+
+#header {
+  z-index: 1;
 }
