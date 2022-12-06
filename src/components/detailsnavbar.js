@@ -1,6 +1,6 @@
 import React from "react";
 import { IoArrowBackOutline, IoSettingsSharp } from "react-icons/io5";
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Detailsnav = () => {
   return (
