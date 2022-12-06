@@ -7,22 +7,46 @@ import { selectCountry } from "../redux/actions";
 import { TbReportAnalytics } from "react-icons/tb";
 
 const Details = () => {
-  const country = useSelector((state) => state.country)
-  const { cases, tests, population, flag, continent, todayCases, deaths, todayDeaths, recovered, todayRecovered, active, critical, casesPerOneMillion, deathsPerOneMillion, testsPerOneMillion, oneCasePerPeople, oneDeathPerPeople, oneTestPerPeople, activePerOneMillion, recoveredPerOneMillion, criticalPerOneMillion} = country;
-  const {countryInfo} = useParams()
-  console.log(countryInfo)
-  const dispatch = useDispatch()
+  const country = useSelector((state) => state.country);
+  const {
+    cases,
+    tests,
+    population,
+    flag,
+    continent,
+    todayCases,
+    deaths,
+    todayDeaths,
+    recovered,
+    todayRecovered,
+    active,
+    critical,
+    casesPerOneMillion,
+    deathsPerOneMillion,
+    testsPerOneMillion,
+    oneCasePerPeople,
+    oneDeathPerPeople,
+    oneTestPerPeople,
+    activePerOneMillion,
+    recoveredPerOneMillion,
+    criticalPerOneMillion,
+  } = country;
+  const { countryInfo } = useParams();
+  console.log(countryInfo);
+  const dispatch = useDispatch();
   const fetchDetails = async () => {
-    const response = await axios.get(`https://disease.sh/v3/covid-19/countries/${countryInfo}`).catch(err => {
-      console.log("Err", err)
-    });
-   dispatch(selectCountry(response.data))
-  }
+    const response = await axios
+      .get(`https://disease.sh/v3/covid-19/countries/${countryInfo}`)
+      .catch((err) => {
+        console.log("Err", err);
+      });
+    dispatch(selectCountry(response.data));
+  };
 
   useEffect(() => {
     if (countryInfo && countryInfo !== "") fetchDetails();
-     // eslint-disable-next-line
-  }, [countryInfo])
+    // eslint-disable-next-line
+  }, [countryInfo]);
   return (
     <div>
       <div className="pt-3 px-2">
@@ -247,7 +271,6 @@ const Details = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

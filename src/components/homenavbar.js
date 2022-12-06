@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 import { IoSettingsSharp } from "react-icons/io5";
 
 const Homenavbar = () => {
   return (
-    <div id="header" className="flex sticky top-0 w-full bg-purple-700 text-white font-semibold justify-between items-center p-3">
+    <div
+      id="header"
+      className="flex sticky top-0 w-full bg-purple-700 text-white font-semibold justify-between items-center p-3"
+    >
       <p>2022</p>
       <p className="">World Cases</p>
       <span className="flex justify-between">
@@ -11,6 +14,6 @@ const Homenavbar = () => {
       </span>
     </div>
   );
-}
+};
 
-export default Homenavbar
+export default Homenavbar;

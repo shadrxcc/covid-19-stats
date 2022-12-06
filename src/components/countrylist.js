@@ -10,7 +10,10 @@ const Countrylist = () => {
     const { countryInfo, country } = county;
 
     return (
-      <div className="container-fluid col-md-4 col-lg-3 text-center" key={countryInfo._id}>
+      <div
+        className="container-fluid col-md-4 col-lg-3 text-center"
+        key={countryInfo._id}
+      >
         <Link to={`/country/${countryInfo._id}`}>
           <div className="">
             <div className="my-2 text-center">

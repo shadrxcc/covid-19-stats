@@ -1,14 +1,14 @@
-import React from 'react'
-import Detailsnav from '../components/detailsnavbar'
-import Details from './details'
+import React from "react";
+import Detailsnav from "../components/detailsnavbar";
+import Details from "./details";
 
 const Detailscomp = () => {
   return (
     <>
-    <Detailsnav/>
-    <Details/>
+      <Detailsnav />
+      <Details />
     </>
-  )
-}
+  );
+};
 
-export default Detailscomp
+export default Detailscomp;
