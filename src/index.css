@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -13,7 +17,3 @@ body {
 #header {
   z-index: 1;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
