@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { selectCountry } from "../redux/actions";
 import { TbReportAnalytics } from "react-icons/tb";
+import virus from '../assets/conifer-virus.png'
 
 const Details = () => {
   const country = useSelector((state) => state.country);
@@ -12,7 +13,6 @@ const Details = () => {
     cases,
     tests,
     population,
-    flag,
     continent,
     todayCases,
     deaths,
@@ -32,7 +32,8 @@ const Details = () => {
     criticalPerOneMillion,
   } = country;
   const { countryInfo } = useParams();
-  console.log(countryInfo);
+
+
   const dispatch = useDispatch();
   const fetchDetails = async () => {
     const response = await axios
@@ -54,7 +55,7 @@ const Details = () => {
           id="all"
           className="flex p-3 text-white bg-purple-700 rounded-lg items-center justify-evenly"
         >
-          <img className="w-3/12" src={flag} alt="world icon"></img>
+          <img className="w-3/12 virus" src={virus} alt="world icon"></img>
 
           <span>
             <span className="py-2">

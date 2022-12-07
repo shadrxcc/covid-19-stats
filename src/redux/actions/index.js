@@ -14,4 +14,4 @@ const selectCountry = (country) => {
   };
 };
 
-export { selectCountry, setCountry };
+export { selectCountry, setCountry};

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import globe from "../assets/earth-globe.png";
 import axios from "axios";
-import Countrylist from "./countrylist";
+//import Countrylist from "./countrylist";
 //import { setWorld } from "../redux/actions";
 //import { useDispatch, useSelector } from "react-redux";
 
@@ -40,7 +40,7 @@ class Allcases extends Component {
             </span>
           </span>
         </div>
-        <Countrylist />
+        
       </div>
     );
   }

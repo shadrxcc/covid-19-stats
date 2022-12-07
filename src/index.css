@@ -17,3 +17,8 @@ body {
 #header {
   z-index: 1;
 }
+
+button#dropdown-basic-button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}

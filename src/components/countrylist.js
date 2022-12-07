@@ -7,14 +7,13 @@ import virus from "../assets/conifer-virus.png";
 const Countrylist = () => {
   const countries = useSelector((state) => state.allCountries.countries);
   const renderList = countries.map((county) => {
-    const { countryInfo, country } = county;
-
+    const { country } = county;
     return (
       <div
         className="container-fluid col-md-4 col-lg-3 text-center"
-        key={countryInfo._id}
+        key={country}
       >
-        <Link to={`/country/${countryInfo._id}`}>
+        <Link to={`/country/${country}`}>
           <div className="">
             <div className="my-2 text-center">
               <div className="rounded-lg py-5 bg-purple-700">
@@ -36,6 +35,7 @@ const Countrylist = () => {
 
   return (
     <>
+
       <div className="m-auto row row-cols-8">{renderList}</div>
     </>
   );
