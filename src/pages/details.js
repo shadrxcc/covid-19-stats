@@ -53,7 +53,7 @@ const Details = () => {
       <div className="pt-3 px-2">
         <div
           id="all"
-          className="flex p-3 text-white bg-purple-700 rounded-lg items-center justify-evenly"
+          className="flex p-3 text-white bg-purple-700  shadow-lg shadow-purple-700/70 rounded-lg items-center justify-evenly"
         >
           <img className="w-3/12 virus" src={virus} alt="world icon"></img>
 
@@ -73,7 +73,7 @@ const Details = () => {
       <div className="container text-center">
         <div className="row p-2">
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -84,7 +84,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -95,7 +95,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -106,7 +106,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -117,7 +117,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -128,7 +128,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -139,7 +139,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -150,7 +150,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -161,7 +161,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -172,7 +172,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -183,7 +183,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -194,7 +194,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -205,7 +205,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -216,7 +216,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -227,7 +227,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -238,7 +238,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -249,7 +249,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
@@ -260,7 +260,7 @@ const Details = () => {
             </div>
           </div>
           <div className="col-md-3 my-2 text-center">
-            <div className="rounded-lg py-5 bg-purple-700">
+            <div className="rounded-lg py-5 bg-purple-700  shadow-lg shadow-purple-700/70">
               <div className="m-auto flex justify-center">
                 <TbReportAnalytics className="text-white fs-1" />
               </div>
