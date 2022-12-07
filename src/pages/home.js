@@ -56,6 +56,7 @@ const Home = () => {
           ))}
         </select>
       </span>
+      <div className="m-auto row row-cols-8">
       {filtered.length ? (
         filtered.map((fil) => (
           <div
@@ -82,7 +83,7 @@ const Home = () => {
         ))
       ) : (
         <Countrylist />
-      )}
+      )}</div>
     </>
   );
 };

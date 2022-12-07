@@ -8,7 +8,7 @@ const Homenavbar = () => {
       className="flex sticky top-0 w-full bg-purple-700 text-white font-semibold justify-between items-center p-3"
     >
       <p>2022</p>
-      <p className="">World Cases</p>
+      <p className="">Covid-19 Stats</p>
       <span className="flex justify-between">
         <IoSettingsSharp className="fs-4" />
       </span>
