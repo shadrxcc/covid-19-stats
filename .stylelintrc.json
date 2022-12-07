@@ -5,7 +5,9 @@
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "csstree/validator": true,
-    "css.lint.unknownAtRules": "ignore"
+    "css.lint.unknownAtRules": "ignore",
+    "css.validate": true,
+    "scss.validate": true
   },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
